@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2017",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "allowJs": true,
+    "sourceMap": false,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@typescript-eslint",
+      "./types/index.d.ts"
+    ]
+  },
+  "include": ["src/**/*", "types/index.d.ts"],
+  "exclude": ["node_modules", "tests"]
+}

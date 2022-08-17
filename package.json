@@ -1,0 +1,24 @@
+{
+    "name": "aws-cd-ms-api",
+    "version": "1.0.0",
+    "description": "Api microservice",
+    "author": "Diego Michelena",
+    "repository": "https://github.com/dmichelena/aws-cd-ms-api",
+    "license": "MIT",
+    "scripts": {
+        "deploy": "cdk deploy --app \"npx ts-node --prefer-ts-exts cdk/app.ts\" --output cdk.out.app --require-approval never",
+        "cdk": "cdk"
+    },
+    "devDependencies": {
+        "@aws-cdk/aws-apigateway": "^1.168.0",
+        "@aws-cdk/aws-sns": "^1.168.0",
+        "@aws-cdk/aws-sns-subscriptions": "^1.168.0",
+        "@aws-cdk/core": "1.152.0",
+        "@types/node": "^14.14.11",
+        "aws-cdk": "2.20.0",
+        "aws-lambda-sns": "^1.0.0",
+        "aws-sdk": "^2.1195.0",
+        "lambda-api": "^0.11.2",
+        "typescript": "^4.3.5"
+    }
+}

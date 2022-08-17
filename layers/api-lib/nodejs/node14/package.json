@@ -1,0 +1,5 @@
+{
+    "dependencies": {
+        "lambda-api": "^0.11.2"
+    }
+}

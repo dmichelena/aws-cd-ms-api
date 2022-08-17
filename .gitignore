@@ -1,0 +1,12 @@
+#node
+node_modules
+
+#IDE
+.idea
+
+#Compiled files
+built
+
+#CDK
+cdk.out.*
+cdk.context.json
